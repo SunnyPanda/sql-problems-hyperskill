@@ -8,6 +8,5 @@ BEGIN
         INSERT INTO book_basket(item, description) VALUES (item_name, description);
     ELSEIF item_name = 'ice cream' THEN
         INSERT INTO ice_basket(item, description) VALUES (item_name, description);
-
     END IF;
 END;
